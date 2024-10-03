@@ -1,2 +1,3 @@
-document.addEventListener("DOMContentLoaded" , function () {    
-  document.getElementById("price").textContent = "0$" })
+document.addEventListener("DOMContentLoaded", function() {
+    var priceElement = document.getElementById('price'); 
+    if (priceElement) {priceElement.innerHTML = '0 €';}});
